@@ -1,0 +1,4 @@
+* SQLITE3 
+- Count 
+  SELECT Count ( * ) from table;
+- 

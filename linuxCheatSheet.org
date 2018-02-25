@@ -1,0 +1,25 @@
+* Search Strings
+** GREP
+*** Command 
+grep [options] pattern <directory>
+*** Options 
+-exclude-dir <> : Exclude certain dirs
+-v              : Ignore the pattern
+-i              : Ignore case
+-r              : Search recursively
+-c              : Number of lines in the output
+-w              : Show only full words and not the sub-strings
+
+** FIND 
+*** Command 
+find <dirs> <options> <regex>
+* PERMISSIONS 
+** T bit 
+- used for /tmp directories mainly, can only be modified by directory, file or super user
+- chmod 1770, will set the sticky bit on
+- "T" is no execute permission, "t" is ex
+- Ref : https://askubuntu.com/questions/88391/wha-an-uppercase-t-at-the-end-of-unix-permissions
+
+* Processes
+- pwdx : Find the directory where the process is running
+

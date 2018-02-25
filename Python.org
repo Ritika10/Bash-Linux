@@ -1,0 +1,28 @@
+* Data structures 
+** Lists 
+** Tuples
+- Read only lists, values cannot be modified
+** Dictionary 
+- dict[<key>]=<value>
+- dict = {key1:value1, key2:value2}
+- dict.keys()
+- dict.values()
+* Operations 
+** Assignments Operators
+- c //= a is equivalent to c=c//a
+** Membership Operators
+- "in" and "not in"
+- "is" and "is not" if the same id 
+* Loop 
+** While 
+- can be written in single statement
+- while(flag) : print "" 
+** For 
+- for letter in 'Python':
+  print 'Current Letter : ', letter
+  
+  fruits = ['banana', 'apple', 'mango']
+  for fruit in fruits:
+  print 'Current fruit :', fruit
+
+

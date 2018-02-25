@@ -1,0 +1,5 @@
+* Deletion Operation
+- <d$> : Delete from curson to end of line 
+
+* Navigation Operation
+- <$> : Navigate to the end of line
