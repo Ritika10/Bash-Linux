@@ -1,0 +1,118 @@
+* Data Types
+    ** Mutable and Immutable
+       -During assignment, Python is creating a new value different from the old one
+       -num=num+2
+
+    ** Strings
+        - Both ' and " are interpreted
+
+    ** Lists
+        - list_name = [item1, item2]
+        - Can assign values to lists
+        - list.append()
+        - list.index(<value>)
+        - list.insert(index,<value>)
+        - <list>.sort()
+        - <list>.remove('value')
+
+    ** Tuples
+        - t=(1,) # Comma is required for tuple of size 1
+        - t=(2, 'the', (3,4)) #nested and heterogenous tuples allowed
+        - Tuples can be modified
+
+    ** Dictionaries
+        - Keys must be immutable, values can be any type
+        - a = {"username":"root", "password":1234} # Create
+        - a["username"]                            # access value by key
+            'root'
+        - a["password"]                            # Refer the value of the columns
+            1234
+        - print a
+        {'username': 'root', 'password': 1234}      # Print the complete dictionary
+        - del a[username] : Deletes the key and correesponding entry
+    ** NoneType
+
+    ** Casting
+        - Casting is the process of converting a value of one data type into an equivalent value of another data type
+        - Can convert int to a float as float(int-variable)
+        - int  to string as str(inte-variable)
+        - Sring to int => int(str- variable)
+        - Check hte type of the variable using type()
+
+* Syntax
+    ** Whitespace
+        - indentation modifies the nature of the function dramatically
+
+* Conditions
+    ** IF block
+        a='positive'
+        if a=='positive':
+            print(1)
+        elif a=='negative':
+            print(-1)
+        else:
+             print(0)
+    ** Comparators
+        - AND, OR and NOT
+            Order of evaluation : NOT, AND, OR
+
+* Control structures
+    ** For loop
+
+    ** While loop
+    ** Break and continue
+    ** pass
+        - Every loop needs to have a statement to denote indentation, but if nothing to print add "pass"
+
+* Sequence
+    ** Types of sequences
+        - x in s
+        - x not in s
+        - s + t
+        - s * t # concatenates t copies of s
+        - s[i]  # (4,8,4)[1]
+        - s[-i]
+        - all(s) # Returns true if all values are true
+            all('cat')
+            True
+            all(['', 'cat'])
+            False
+        - any(s) # Returns true if any matches, otherwise False
+            any(['', 'cat'])
+            True
+            all(['', 'cat'])
+            False
+        - min(s)
+        - len(s)
+        - max(s)
+    ** Slicing
+        - var[start:end] - from start to one before end
+        - var[start:]    - from start onward
+            'python'[2:]
+            'thon'
+        - var[:end]      - everything upto one before end
+            'python'[:2]
+            'py'
+
+* String
+    ** String Manipulation
+    ** String Operations
+        - len(str s)
+        - str(s)
+        - str.upper() and str.lower()
+        - s.isalpha() checks if the string has only letters
+    ** ''' : Strings for multiple lines. If not assigned to a variable, can function as a comment
+
+* Print
+    **multiple things on a line
+        print ('abc', x, 'def'
+    ** Pretty Printing
+        -
+    ** Formatted strings
+        - Can replace values as {} with .format () at the end
+        -print("{} : {}".format(1,2))
+            1 : 2
+* Functions
+    ** Definition
+        - def <name>():
+            <body>

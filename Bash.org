@@ -1,0 +1,15 @@
+* File Operations
+    - uniq <file-name>
+    - sort <file-name>
+
+* Grep Operations
+    - grep -rl <pattern> <directory > : Outputs files with the pattern
+
+* SED Operations
+    - Stream editor used to do "find-replace" in UNIX
+    - sed -i 's/<old patter>/<new pattern>/' <filename>
+
+* Command Prmpt
+    - Change the command prompt by setting the following command in bashrc
+    - export PS1=">> "
+

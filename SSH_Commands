@@ -1,0 +1,2 @@
+Disable host checking for a certain host
+  echo -e "Host <>\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config

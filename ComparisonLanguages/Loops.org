@@ -1,8 +1,10 @@
-* Loops
-    ** While
-        *** Python
-            loop_condition = True
+* While
+    ** Python
+         -  loop_condition = True
 
             while loop_condition:
               print "I am a loop"
               loop_condition = False
+         - Difference is while/else loop .
+            Else is executed if loop condition not true or loop breaks normally.
+            If break; it is not executed.

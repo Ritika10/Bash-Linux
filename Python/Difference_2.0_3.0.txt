@@ -1,0 +1,9 @@
+Difference in Python 2 and Python 3
+
+    * Print Statement
+        - print "abc"
+        - print(abc)
+
+    * Input from users
+        - raw_input()
+        - input()
